@@ -43,8 +43,9 @@ namespace LooneyDog
         }
 
         private void OnClickStart(){
-            GameManager.Game.Screen.LoadFadeScreen(this.gameObject,GameManager.Game.Screen.Load.gameObject);
-       }
+            //GameManager.Game.Screen.LoadFadeScreen(this.gameObject,GameManager.Game.Screen.Load.gameObject);
+            GameManager.Game.Screen.Load.LoadLevel(2, GameDifficulty.Easy, gameObject);
+        }
 
         private void OnClickShopButton()
         {
