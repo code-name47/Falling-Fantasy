@@ -8,12 +8,15 @@ namespace LooneyDog
 
         public int LevelNumber { get => _levelNumber; set => _levelNumber = value; }
         public GameDifficulty Difficulty { get => _difficulty; set => _difficulty = value; }
+        public PlayerController PlayerController { get => _playerController; set => _playerController = value; }
+
         //public ShipSelectController ShipSelectController { get => _shipSelectController; set => _shipSelectController = value; }
 
         [Header("Level Details")]
         [SerializeField] private int _levelNumber;
         [SerializeField] private GameDifficulty _difficulty;
         [SerializeField] private LevelData[] levelDatas;
+        [SerializeField] private PlayerController _playerController;
 
         [Header("Level Controllers")]
         //[SerializeField] private ShipSelectController _shipSelectController;

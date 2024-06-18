@@ -5,6 +5,8 @@ Temp/
 Library/
 *.log
 UserSettings/
+*.json
+
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
