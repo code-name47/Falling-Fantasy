@@ -1,0 +1,34 @@
+{
+    "name": "Test",
+    "maps": [
+        {
+            "name": "Test",
+            "id": "94b75557-932c-4834-9538-2840aa9afec8",
+            "actions": [
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "9f99917e-c2de-490c-8b34-69903c7b0cfd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b7f3e040-6f57-4fce-9334-a666ca269141",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
